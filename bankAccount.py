@@ -24,6 +24,7 @@ class BankAccount():
     def print_customer_information(self):
         print(bank + " Account Holder: " + self.customer_name + ", Current Balance: " + str(self.current_balance) + ", Minimum Balance: " + str(self.minimum_balance))
 
+'''
 sammy = BankAccount("Sammy", 1000, min_balance)
 roberto = BankAccount("Roberto", 50, min_balance)
 
@@ -32,3 +33,4 @@ print(sammy.withdraw(1000))
 print(sammy.withdraw(500))
 print(sammy.deposit(500))
 sammy.print_customer_information()
+'''
